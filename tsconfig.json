@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "node16",
+        "esModuleInterop": true,
+        "target": "es6",
+        "outDir": "./dist",
+        "typeRoots": ["./types"],
+        "noImplicitAny": true
+    },
+    "include": ["./src/**/*.ts"],
+}
