@@ -1,4 +1,4 @@
-import {cp, copyFile} from "node:fs/promises";
+const {cp, copyFile} = require("node:fs/promises");
 
 // __dirname is relative to the file location, not where it is being run from
 console.log(__dirname)
