@@ -3,7 +3,7 @@ const path = require('node:path');
 const packageUpdater = require('puzzle-host-package-updater');
 
 (async () => {
-  await packageUpdater();
+  await packageUpdater(path.resolve(__dirname, "./package.json"), path.resolve(__dirname, "../../package.json"));
 
   await cp(path.resolve(__dirname, "./src"), path.resolve(__dirname, "../../src"), { recursive: true });
   await cp(path.resolve(__dirname, "./test"), path.resolve(__dirname, "../../test"), { recursive: true });
