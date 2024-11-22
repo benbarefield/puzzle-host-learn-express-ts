@@ -8,3 +8,5 @@ The `serverSetup` function allows the tests to run with the same setup as the ma
 `npm start`
 
 ### Tests
+git init
+npm run test
